@@ -1,0 +1,123 @@
+.order-info-block-1{
+    display: flex;
+}
+.order-info-block-1a, .order-info-block-1b{
+    width: 50%;
+}
+
+.order-info-label{
+    margin: 12px 0;
+}
+
+.order-info-label span{
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.order-info-status{
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.order-info-status.n0{
+    color: #F9D71C;
+    background-color: #FFF9C4;
+    
+}
+.order-info-status.n1{
+    color: #0074D9;
+    background-color: #D6ECFF;
+}
+.order-info-status.n2{
+    color: #2ECC40;
+    background-color: #B2FFC8;
+}
+.order-info-status.n-1{
+    color: #FF4136;
+    background-color: #FFD6D6;
+}
+
+
+
+.title-list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    font-weight: 600;
+    color: #454545;
+}
+
+.title-list-items-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    padding: 16px 0;
+    align-items: start;
+    color: #454545;
+}
+
+.title-list-item-image, .title-list-header-image{
+    width: 100px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.title-list-item-image{
+    height: 100px;
+    padding: 0 8px;
+}
+.title-list-item-img img{
+    max-width: 100px;
+    height: inherit;
+}
+
+
+.title-list-item-name, .title-list-header-name{
+    width: 20%;
+    min-width: 80px;
+}
+.title-list-item-sku, .title-list-header-sku{
+    width: 270px;
+    min-width: 270px;
+}
+.title-list-item-unitprice, .title-list-header-unitprice{
+    width: 85px;
+    min-width: 85px;
+}
+.title-list-item-count, .title-list-header-count{
+    width: 20px;
+    min-width: 20px;
+}
+.title-list-item-totalprice, .title-list-header-totalprice{
+    width: 90px;
+    min-width: 90px;
+}
+
+.title-list-item-sku select{
+    margin-bottom: 4px;
+    height: 33.5px;
+    padding: 3.75px 13.16px;
+    border-radius: 5px;
+    border: 1px solid #CDCFD0;
+    box-shadow: none;
+    outline: none;
+}
+
+.order-price-info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-bottom: 4px;
+}
+.order-total-price, .order-shipping-price, .order-final-price{
+    display: flex;
+    padding-bottom: 4px;
+}
+.order-total-price .price, .order-shipping-price .price, .order-final-price .price{
+    min-width: 150px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
